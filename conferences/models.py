@@ -1,4 +1,3 @@
-import datetime
 from datetime import timedelta
 
 # https://djangoproject.com
@@ -14,7 +13,7 @@ class Category(models.Model):
         verbose_name_plural = 'Categories'
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 #  1 cat -------> Many conf
@@ -26,6 +25,22 @@ class Conference(models.Model):
     date = models.DateTimeField()
     # category = models.CharField(max_length=100, choices=CONF_CATEGORIES)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    date = models.DateField()
+    venue = models.CharField(max_length=100)
+    theme = models.CharField(max_length=100)
 
-    def __str__(self):
-        return f"{self.title} - {self.category}"
+def __str__(self):
+        return self.name
+
+# creating dummy data for conferences app
+create_dummy_conferences():
+    for i in range(10):
+        Conference.objects.create(
+            name=f"Conference {i}",
+            category="Category",
+            date=date(2023, 6, 1),
+            venue="Venue",
+            theme="Theme"
+        )
+
+create_dummy_conferences()

@@ -1,8 +1,8 @@
 # Conference_project
 Class project for a Conference management App <br>
-## Name:
-## Registration Number
-## Department:
+## Name: IGIRANEZA WINNY
+## Registration Number: 221023345
+## Department: INFORMATION TECHNOLOGY
 
 ## Scenario
 =========== <br>
