@@ -1,7 +1,7 @@
 # Conference_project
 Class project for a Conference management App <br>
-## Name: IGIRANEZA WINNY
-## Registration Number: 221023345
+## Name: IGIRANEZA WINNY & MUGISHA AIMABLE
+## Registration Number: 221023345 & 221020434 Respectively
 ## Department: INFORMATION TECHNOLOGY
 
 ## Scenario
